@@ -8,10 +8,9 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("Day4\\Input.txt");
+        File file = new File("2022\\Day4\\Input.txt");
         BufferedReader br = new BufferedReader(new FileReader(file));
 
-        // part 1
         int countContain = 0;
         int countOverlap = 0;
         try {
