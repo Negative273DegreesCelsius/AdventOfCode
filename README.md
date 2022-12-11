@@ -11,7 +11,7 @@
 | [2](../AdventOfCode/2022/Day2/Main.jl) | Rock Paper Scissors | 2 | Julia | |
 | [3](../AdventOfCode/2022/Day3/Main.java) | Rucksack Reorganization | 2 | Java | |
 | [4](../AdventOfCode/2022/Day4/Main.java) | Camp Cleanup | 2 | Java | |
-| 5 | Supply Stacks | Will do soon | To be done in Kotlin | |
+| [5](../AdventOfCode/2022/Day5/Main.kt) | Supply Stacks | 2 | Kotlin | Really liked this one |
 | [6](../AdventOfCode/2022/Day6/Main.java) | Tuning Trouble | 2 | Java | |
 | [7](../AdventOfCode/2022/Day7/Main.java) | No Space Left On Device | 2 | Java | Pain |
 | [8](../AdventOfCode/2022/Day8/Main.jl) | Treetop Tree House | 2 | Julia | |

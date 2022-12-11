@@ -1,0 +1,5 @@
+# ignore exe and jar files created during compilation
+*.exe
+*.jar
+
+.vscode
