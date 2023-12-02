@@ -21,4 +21,5 @@
 ## My 2023 Solutions:
 | Day | Challenge Title | Stars Earned | Language Used | Notes |
 |:---:|:---------------:|:------------:|:-------------:| ----- |
-| 1 | Trebuchet?!  | 2 | Java | |
+| 1 | Trebuchet?! | 2 | Java | |
+| 2 | Cube Conundrum | 2 | Julia | |
