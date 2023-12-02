@@ -17,3 +17,8 @@
 | [8](../AdventOfCode/2022/Day8/Main.jl) | Treetop Tree House | 2 | Julia | |
 | [9](../AdventOfCode/2022/Day9/Main.py) | Rope Bridge | 1 | Python | Agony |
 | [10](../AdventOfCode/2022/Day10/Main.java) | Cathode-Ray Tube | 2 | Java | My favorite one so far |
+
+## My 2023 Solutions:
+| Day | Challenge Title | Stars Earned | Language Used | Notes |
+|:---:|:---------------:|:------------:|:-------------:| ----- |
+| 1 | Trebuchet?!  | 2 | Java | |
