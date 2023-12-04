@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class Day4_2023 {
     public static void main(String[] args) throws FileNotFoundException {
         File file = new File("2023\\Day4\\Input.txt");
         BufferedReader reader = new BufferedReader(new FileReader(file));
