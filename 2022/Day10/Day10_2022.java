@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Main {
+public class Day10_2022 {
 
     private static int spritePosMin = 0;
     private static int spritePosMax = 2;

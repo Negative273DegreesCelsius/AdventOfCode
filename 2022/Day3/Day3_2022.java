@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class Main {
+public class Day3_2022 {
 
     public static int itemToInt(char item) {
         int val = (Character.isUpperCase(item)) ? (item - 38) : (item - 96);
