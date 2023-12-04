@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Day6_2022 {
+public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         File file = new File("2022\\Day6\\Input.txt");
         BufferedReader br = new BufferedReader(new FileReader(file));

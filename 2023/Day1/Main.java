@@ -7,7 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class Day1_2023 {
+public class Main {
     public static ArrayList<String> p1Targets = new ArrayList<>();
     public static ArrayList<String> p2Targets = new ArrayList<>();
 
