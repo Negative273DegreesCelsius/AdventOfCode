@@ -23,3 +23,5 @@
 |:---:|:---------------:|:------------:|:-------------:| ----- |
 | 1 | Trebuchet?! | 2 | Java | |
 | 2 | Cube Conundrum | 2 | Julia | |
+| 3 | Gear Ratios | 2 | Python | |
+| 3 | Scratchcards | 2 | Java | |
