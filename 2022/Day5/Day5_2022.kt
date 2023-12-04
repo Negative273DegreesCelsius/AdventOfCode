@@ -1,8 +1,6 @@
 import java.io.File
 import java.io.BufferedReader
 
-fun getInputLines(fileName: String): List<String> = File(fileName).bufferedReader().readLines();
-
 fun setStacks(stacks: ArrayList<ArrayList<Char>>, lines: List<String>, emptyLine: Int) {
     for (i in 0..8) {
         var stack: ArrayList<Char> = ArrayList<Char>();
@@ -17,6 +15,8 @@ fun setStacks(stacks: ArrayList<ArrayList<Char>>, lines: List<String>, emptyLine
 }
 
 fun main() {
+    fun getInputLines(fileName: String): List<String> = File(fileName).bufferedReader().readLines();
+
     val lines: List<String> = getInputLines("Input.txt");
 
     var emptyLine = 0;

@@ -8,12 +8,12 @@ import java.io.IOException;
 
 // this one does not look fun...
 
-public class Main {
-    private static Folder outer = new Folder();
+public class Day7_2022 {
+    private static Folder_2022 outer = new Folder_2022();
 
-    public static String getFullDir(Folder folder, String fileName) {
+    public static String getFullDir(Folder_2022 folder, String fileName) {
         String fullDir = fileName;
-        Folder tempFolder = folder;
+        Folder_2022 tempFolder = folder;
         while (!tempFolder.equals(outer)) {
             fullDir = tempFolder.getName() + "/" + fullDir;
             tempFolder = tempFolder.getOuterFolder();
@@ -21,11 +21,11 @@ public class Main {
         return fullDir;
     }
 
-    public static Folder searchFolder(Folder outerFolder, String folderName, String fullDir) {
-        for (Folder folder : outerFolder.getInnerFolders()) {
+    public static Folder_2022 searchFolder(Folder_2022 outerFolder, String folderName, String fullDir) {
+        for (Folder_2022 folder : outerFolder.getInnerFolders()) {
             if (folder.getName().equals(folderName)) return folder;
             else if (folder.getInnerFolders().size() != 0) {
-                Folder retFolder = searchFolder(folder, folderName, fullDir);
+                Folder_2022 retFolder = searchFolder(folder, folderName, fullDir);
                 if (!retFolder.equals(outer) && (getFullDir(retFolder, folderName).equals(fullDir))) return retFolder;
             }
         }
@@ -37,7 +37,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new FileReader(file));
 
         int sumSize = 0;
-        Folder currFolder = outer;
+        Folder_2022 currFolder = outer;
         try {
             String str;
             while ((str = br.readLine()) != null) {
