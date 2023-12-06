@@ -2,4 +2,7 @@
 *.exe
 *.jar
 
+# ignore all input files
+*.txt
+
 .vscode
