@@ -26,3 +26,4 @@
 | 3 | Gear Ratios | 2 | Python | |
 | 4 | Scratchcards | 2 | Java | |
 | 5 | If You Give A Seed A Fertilizer | 1 | Python | I will do part 2 later |
+| 6 | Wait For It | 2 | Python | |
