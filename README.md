@@ -27,3 +27,4 @@
 | 4 | Scratchcards | 2 | Java | |
 | 5 | If You Give A Seed A Fertilizer | 1 | Python | I will do part 2 later |
 | 6 | Wait For It | 2 | Python | |
+| 7 | Camel Cards | 2 | Python | Now I see why they teach sorting algos in school |
